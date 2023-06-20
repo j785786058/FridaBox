@@ -1,4 +1,4 @@
-# FridaBox-脱离PC在Android上运行Frida脚本及发送HTTP请求
+# 脱离PC在Android上运行Frida脚本及发送HTTP请求
 ## 一、脱离PC在Android上运行Frida脚本
 ## 步骤1：frida-server
 要使用Frida，首先需要将frida-server拷贝到Android设备的/data/local/tmp目录,可以在 [frida-server](https://github.com/frida/frida/releases) 下载
