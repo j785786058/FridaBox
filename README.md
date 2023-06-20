@@ -12,7 +12,7 @@ DroidFrida已经集成好了frida-inject，可以在Android设备直接注入JS�
 
 ## 二、Frida脚本主动发起Http请求
 ## 步骤1：AndroidAsync
-下载[AndroidAsync]([https://github.com/frida/frida/releases](https://github.com/koush/AndroidAsync))，把jar包打包为dex文件，放到/data/local/tmp
+下载 [AndroidAsync](https://github.com/koush/AndroidAsync)，把jar包打包为dex文件，放到/data/local/tmp
 ## 步骤2：调用dex发起请求
 ``` 
 Java.openClassFile("/data/local/tmp/androidAsync.dex").load();
